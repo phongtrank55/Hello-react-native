@@ -8,6 +8,7 @@ import FlatListBasic from './components/FlatListBasic';
 import SectionListBasic from './components/SectionListBasic';
 import UserList from './components/UserList';
 import ListItemDemo from './components/ListItemDemo';
+import AsyncStorageText from './components/AsyncStorageText';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
     // <FlatListBasic />
     // <SectionListBasic />
     // <ListItemDemo />
-    <UserList />
+    // <UserList />
+    <AsyncStorageText />
   );
 }
